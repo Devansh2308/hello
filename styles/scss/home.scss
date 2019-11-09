@@ -1,0 +1,52 @@
+.Home{
+    background-image: url(/static/banner_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-left: -200px;
+    margin-top: 50px;
+}
+.banner_home{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 15%;
+}
+.text_home{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 20px;
+}
+.headtext{
+    font-size: 45px;
+}
+.homeimg1 img,.homeimg2 img,.homeimg3 img{
+ height: 65%;
+ width: 70%;
+ position: relative;
+ }
+ .image_home{
+     width: 40%;
+     margin-left: 10%;
+     margin-top:5%;
+    
+ }
+ .homeimg2 img{
+     left:8%;
+     top:-150px;
+ }
+ .homeimg3 img{
+    left:16%;
+    top:-300px;
+}
+.logo_home img{
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: white;
+    margin-top: 170px;
+    margin-right:10x;
+    width: 150px;
+    height: 150px;
+}
